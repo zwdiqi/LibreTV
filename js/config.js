@@ -39,10 +39,6 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    // xiaomaomi: {
-    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
-    //     name: '小猫咪资源',
-    // },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
@@ -106,11 +102,7 @@ const API_SITES = {
         api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺短剧'
     },
-    ikun: {
-        api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源'
-    },
-    testSource: {
+	testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
         adult: true
@@ -123,23 +115,13 @@ const API_SITES = {
     // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
-       ckzy: {
-           api: 'https://www.ckzy1.com',
-           name: 'CK资源',
-           adult: true
-       },
-       jkun: {
-           api: 'https://jkunzyapi.com',
-           name: 'jkun资源',
-           adult: true
-       },
        bwzy: {
-           api: 'https://api.bwzym3u8.com',
+           api: 'https://api.bwzym3u8.com/api.php/provide/vod',
            name: '百万资源',
            adult: true
        },
        souav: {
-           api: 'https://api.souavzy.vip',
+           api: 'https://api.souavzy.vip/api.php/provide/vod',
            name: 'souav资源',
            adult: true
        },
@@ -149,18 +131,12 @@ const API_SITES = {
            adult: true
        },
        lsb: {
-           api: 'https://apilsbzy1.com',
+           api: 'https://apilsbzy9.com/api.php/provide/vod',
            name: 'lsb资源',
            adult: true
        },
-       huangcang: {
-           api: 'https://hsckzy.vip',
-           name: '黄色仓库',
-           adult: true,
-           detail: 'https://hsckzy.vip'
-       },
        yutu: {
-           api: 'https://yutuzy10.com',
+           api: 'https://apiyutu.com/api.php/providedao/vod',
            name: '玉兔资源',
            adult: true
        },
@@ -200,20 +176,20 @@ const API_SITES = {
            adult: true
        },
        sl: {
-           api: 'https://slapibf.com/api.php/provide/vod',
+           api: 'https://senlinzy3.com/api.php/provide/vod',
            name: '森林资源',
            adult: true
        },
 
     // 下面是资源失效率高的API源，不建议使用
-    // subo: {
-    //     api: 'https://subocaiji.com/api.php/provide/vod',
-    //     name: '速播资源'
-    // },
-    // fczy: {
-    //     api: 'https://api.fczy888.me/api.php/provide/vod',
-    //     name: '蜂巢资源'
-    // },
+       subo: {
+           api: 'https://subocaiji.com/api.php/provide/vod',
+           name: '速播资源'
+       },
+       fczy: {
+           api: 'https://api.fczy888.me/api.php/provide/vod',
+           name: '蜂巢资源'
+       },
        ukzy: {
            api: 'https://api.ukuapi88.com/api.php/provide/vod',
            name: 'U酷资源'
